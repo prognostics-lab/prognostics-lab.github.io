@@ -1,1 +1,124 @@
-site_name: My Docs
+site_name: Prognostics lab
+site_url: https://prognostics-lab.cl
+site_description: Prognostics lab
+repo_name: Website source code
+repo_url: https://github.com/prognostics-lab/prognostics-lab.github.io
+
+nav:
+  - Home: index.md
+  - About us: about_us.md
+  - Publications: publications.md
+  - Projects: projects.md
+  - Contact: contact.md
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: en
+
+  favicon: assets/logo.light.svg
+  logo: assets/logo.light.svg
+
+  features:
+    - navigation.tabs
+    - navigation.sticky
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - navigation.path
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+    - i18n
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+      primary: teal
+      accent: purple
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+      primary: black
+      accent: lime
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: en
+          name: English
+          default: true
+          build: true
+        - locale: es
+          name: Español
+          build: true
+          site_name: Laboratorio de pronóstico
+          site_description: Laboratorio de pronóstico
+          nav_translations:
+            Home: Inicio
+            About us: Sobre nosotros
+            Publications: Publicaciones
+            Projects: Proyectos
+            Contact: Contacto
+
+markdown-extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra:
+  generator: false
+  homepage: /
+  alternate:
+    - name: English
+      link: /en/
+      lang: en
+    - name: Spanish
+      link: /es/
+      lang: es
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/prognostics-lab
+
+copyright: |
+  &copy; 2025 <a href="https://github.com/prognostics-lab/prognostics-lab.github.io" target="_blank" rel="noopener">Prognostics lab</a>
+
