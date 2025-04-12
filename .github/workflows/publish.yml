@@ -36,6 +36,9 @@ jobs:
       with:
         python-version: 3.x
 
+    - name: Install libraries
+      run: pip install mkdocs mkdocs-material pymdown-extensions mkdocs-material-extensions mkdocs-static-i18n
+
     - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
 
     - uses: actions/cache@v4
