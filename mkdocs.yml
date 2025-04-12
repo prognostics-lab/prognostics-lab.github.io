@@ -13,7 +13,7 @@ nav:
 
 theme:
   name: material
-  custom_dir: overrides
+  # custom_dir: overrides
   language: en
 
   favicon: assets/logo.light.svg
