@@ -1,6 +1,6 @@
-site_name: Prognostics lab
+site_name: Prognostics
 site_url: https://prognostics-lab.cl
-site_description: Prognostics lab
+site_description: Prognostics laboratory
 repo_name: Website source code
 repo_url: https://github.com/prognostics-lab/prognostics-lab.github.io
 
@@ -9,11 +9,12 @@ nav:
   - About us: about_us.md
   - Publications: publications.md
   - Projects: projects.md
+  - Laboratory: laboratory.md
   - Contact: contact.md
 
 theme:
   name: material
-  # custom_dir: overrides
+  custom_dir: overrides
   language: en
 
   favicon: assets/logo.light.svg
@@ -52,6 +53,7 @@ theme:
       accent: lime
 
 plugins:
+  - social
   - search
   - i18n:
       docs_structure: folder
@@ -63,13 +65,14 @@ plugins:
         - locale: es
           name: Español
           build: true
-          site_name: Laboratorio de pronóstico
+          site_name: Pronóstico
           site_description: Laboratorio de pronóstico
           nav_translations:
             Home: Inicio
             About us: Sobre nosotros
             Publications: Publicaciones
             Projects: Proyectos
+            Laboratory: Laboratorio
             Contact: Contacto
 
 markdown-extensions:
@@ -112,7 +115,7 @@ extra:
     - name: English
       link: /en/
       lang: en
-    - name: Spanish
+    - name: Español
       link: /es/
       lang: es
   social:
