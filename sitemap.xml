@@ -2,70 +2,84 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>https://prognostics-lab.cl/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://prognostics-lab.cl/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://prognostics-lab.cl/es/"/>
     </url>
     <url>
         <loc>https://prognostics-lab.cl/about_us/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://prognostics-lab.cl/about_us/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://prognostics-lab.cl/es/about_us/"/>
     </url>
     <url>
         <loc>https://prognostics-lab.cl/contact/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://prognostics-lab.cl/contact/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://prognostics-lab.cl/es/contact/"/>
     </url>
     <url>
+        <loc>https://prognostics-lab.cl/laboratory/</loc>
+        <lastmod>2025-04-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://prognostics-lab.cl/laboratory/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://prognostics-lab.cl/es/laboratory/"/>
+    </url>
+    <url>
         <loc>https://prognostics-lab.cl/projects/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://prognostics-lab.cl/projects/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://prognostics-lab.cl/es/projects/"/>
     </url>
     <url>
         <loc>https://prognostics-lab.cl/publications/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://prognostics-lab.cl/publications/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://prognostics-lab.cl/es/publications/"/>
     </url>
     <url>
         <loc>https://prognostics-lab.cl/es/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="https://prognostics-lab.cl/es/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://prognostics-lab.cl/"/>
     </url>
     <url>
         <loc>https://prognostics-lab.cl/es/about_us/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="https://prognostics-lab.cl/es/about_us/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://prognostics-lab.cl/about_us/"/>
     </url>
     <url>
         <loc>https://prognostics-lab.cl/es/contact/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="https://prognostics-lab.cl/es/contact/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://prognostics-lab.cl/contact/"/>
     </url>
     <url>
+        <loc>https://prognostics-lab.cl/es/laboratory/</loc>
+        <lastmod>2025-04-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://prognostics-lab.cl/es/laboratory/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://prognostics-lab.cl/laboratory/"/>
+    </url>
+    <url>
         <loc>https://prognostics-lab.cl/es/projects/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="https://prognostics-lab.cl/es/projects/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://prognostics-lab.cl/projects/"/>
     </url>
     <url>
         <loc>https://prognostics-lab.cl/es/publications/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="https://prognostics-lab.cl/es/publications/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://prognostics-lab.cl/publications/"/>
