@@ -48,4 +48,6 @@ jobs:
         restore-keys: |
           mkdocs-material-
 
+    - run: cp -rf CNAME docs/
+
     - run: mkdocs gh-deploy --force
